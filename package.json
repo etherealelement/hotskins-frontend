@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@farfetched/core": "^0.11.3",
+    "@mantine/core": "^7.5.2",
+    "@mantine/hooks": "^7.5.2",
     "compose-function": "^3.0.3",
     "effector": "^23.2.0",
     "effector-react": "^23.2.0",
