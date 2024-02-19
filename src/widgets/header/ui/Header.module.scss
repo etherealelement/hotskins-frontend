@@ -1,0 +1,48 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: fit-content;
+  flex-grow: 1;
+}
+
+.header {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-bottom: 16px;
+  background: gray;
+}
+
+.logoText {
+  padding-bottom: 1px;
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  transform: translateX(-288px);
+  &Item {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+      color: #bbb8b8;
+    }
+  }
+}
+
+
+.buttonLink{
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
